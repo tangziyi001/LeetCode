@@ -23,7 +23,7 @@ public:
         }
         else {
             if(mm.size() == cap){
-                auto back = ll.back(); // NOTICE: back() return a reference
+                auto back = ll.back(); // NOTICE: back() returns a reference
                 mm.erase(back.first);
                 ll.pop_back();
             }
